@@ -13,7 +13,7 @@ class Finder:
     
     def __init__(self):
         
-        self.chrome_driver_path = "/Users/alikorkmaz/Dropbox/Python Works/selenium/chromedriver"
+        self.chrome_driver_path = "/Python Works/selenium/chromedriver"
         self.browserProfile = webdriver.ChromeOptions()
         self.browser = webdriver.Chrome(self.chrome_driver_path, options=self.browserProfile)
         
